@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mobile Page</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+  }
+  .container {
+    padding: 20px;
+  }
+  .link {
+    margin-bottom: 10px;
+    display: block;
+  }
+  #image-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <a class="link" href="#">Link 1</a>
+  <a class="link" href="#">Link 2</a>
+  <a class="link" href="#">Link 3</a>
+  <a class="link" href="#">Link 4</a>
+  <a class="link" href="#">Link 5</a>
+  <a class="link" href="#">Link 6</a>
+  <a class="link" href="#">Link 7</a>
+  <a class="link" href="#">Link 8</a>
+  <a class="link" href="#">Link 9</a>
+  <a class="link" href="#">Link 10</a>
+
+  <button id="image-btn" onclick="openImage()">Veja a imagem</button>
+</div>
+
+<script>
+  function openImage() {
+    window.location.href = 'https://scontent.fbnu2-1.fna.fbcdn.net/v/t1.6435-9/90245277_1927290557422634_7149493876221280256_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEDaY9CraPJdbYxIIsz-uFhu3DksGCR6Gm7cOSwYJHoaaOQTqqyFFmCO9GaormfMLfthIEL2ltAE2OQ_AJ96LOJ&_nc_ohc=xh4xkYTYiA8Ab5-ir9R&_nc_ht=scontent.fbnu2-1.fna&oh=00_AfDyXPEYIul71dPZABUNVihGNSD5OhwZdP_9IIQ1Q8ylAw&oe=663E8161';
+    redirectToYouTube();
+  }
+
+  function redirectToYouTube() {
+    setTimeout(function() {
+      window.location.href = 'https://www.youtube.com/watch?v=izGwDsrQ1eQ&ab_channel=georgemichaelVEVO';
+    }, 5000);
+  }
+</script>
+
+</body>
+</html>
